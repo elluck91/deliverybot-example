@@ -1,6 +1,6 @@
 production:
   auto_deploy_on: refs/heads/master
-  required_contexts: []
+  required_contexts: ['ci_collab']
   environment: production
   production_environment: true
 

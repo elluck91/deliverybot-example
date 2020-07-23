@@ -7,7 +7,7 @@ on:
       - 'packages/collab/**'
 
 jobs:
-  build:
+  ci_collab:
 
     runs-on: 'ubuntu-latest'
 

@@ -7,8 +7,7 @@ on:
       - 'packages/worker/**'
 
 jobs:
-  build:
-
+  ci_worker:
     runs-on: 'ubuntu-latest'
 
     steps:
