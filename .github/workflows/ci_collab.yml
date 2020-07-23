@@ -3,8 +3,9 @@ name: ci_collab
 on:
   push:
     paths:
+      - "**"
       # run on changes to all files (other than the ones ignored above)
-      - 'packages/collab/**'
+      # - 'packages/collab/**'
 
 jobs:
   ci_collab:
