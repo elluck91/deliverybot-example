@@ -5,7 +5,7 @@ production:
 
 staging:
   auto_deploy_on: refs/heads/master
-  environment: staging
+  environment: production
   production_environment: false
 
 review:
