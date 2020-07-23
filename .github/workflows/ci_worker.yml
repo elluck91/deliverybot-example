@@ -1,4 +1,4 @@
-name: ci_collab
+name: ci_worker
 
 on:
   push:
