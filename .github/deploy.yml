@@ -1,11 +1,11 @@
 production:
   auto_deploy_on: refs/heads/master
   required_contexts: ['ci_collab']
-  environment: production
+  environment: alpha
   production_environment: true
 
 staging:
   auto_deploy_on: refs/heads/master
   required_contexts: ["ci_worker"]
-  environment: staging
+  environment: alpha
   production_environment: false
