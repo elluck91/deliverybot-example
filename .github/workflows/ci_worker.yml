@@ -4,7 +4,7 @@ on:
   push:
     paths:
       # run on changes to all files (other than the ones ignored above)
-      - "**"
+      - 'packages/worker/**'
 
 jobs:
   build:
